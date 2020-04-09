@@ -204,11 +204,6 @@ h2 {
   font-weight: bold;
   text-shadow: 4px 3px 0 #f0f0f0;
   text-align: center;
-  /* display: inline-block; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 hr {
@@ -229,7 +224,6 @@ h4 {
 
 .left-sec {
   float: left;
-  /* position: relative; */
 }
 
 .right-sec {

@@ -21,10 +21,10 @@ const prefixStr = `
 
 $(document).ready(function () {
   // allBoxStr 需先定義為空字串，否則累加的最前面會出現一次 undefined
-  var allBoxStr = ``;
+  let allBoxStr = ``;
   for (let i = 2; i < 10; i++) {
-    var leftStr = ``;
-    var rightStr = ``;
+    let leftStr = ``;
+    let rightStr = ``;
     for (let j = 1; j < 10; j++) {
       if (j < divisionNum) {
         leftStr += `<p>${i} x ${j} = ${i * j}</p>`;
